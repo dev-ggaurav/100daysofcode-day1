@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	font-family: Karla,sans-serif;
+	font-size:10px;
+}
+
+a{
+	text-decoration:none;
+}
+
+ul{
+	list-style:none;
+}
+
+p{
+	font-size:1.6rem;
+}
+
+h1{
+    font-size: 3.4rem;
+    padding-bottom: 2rem;
+    color: hsl(179, 62%, 43%);
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 0;
+    padding: 2rem;
+    background-color: hsl(204, 43%, 93%);
+
+}
+
+main{
+    width: 80rem;
+    max-width: 80rem;
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px 10px rgba(0,0,0, 0.05);
+}
+
+.cta{
+    width: 100%;
+    margin-top: 1.5rem;
+    background-color: hsl(71, 73%, 54%);
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #ffffff;
+    box-shadow: 0 5px 10px 10px rgba(0,0,0, 0.05);
+    padding:2rem 0 ;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+
+
+.white{
+    padding: 3.5rem;
+    background-color: #ffffff;
+
+}
+
+.white h2{
+    font-size: 2.1rem;
+    padding-bottom: 2rem;
+    color: hsl(71, 73%, 54%);
+}
+
+.white p{
+    color: hsl(218, 22%, 67%);
+    margin-left: 1rem;
+}
+
+.p1{
+    margin-bottom: 0.8rem;
+}
+
+.row{
+    display: flex;
+}
+
+.row > section {
+    flex: 1;
+}
+
+
+.pricing{
+    padding:6rem 3.5rem;
+    background-color: hsl(179, 62%, 43%);
+    color: #ffffff;
+}
+
+.pricing h2{
+    padding-bottom: 2rem 0;
+    margin-bottom: 2rem;
+    font-size: 2.1rem;
+}
+
+.price{
+    font-size: 5rem;
+    padding-bottom: 2rem;
+}
+
+.price-flex{
+    display: flex;
+    align-items: center;
+}
+
+.duration{
+    font-weight: 400;
+    padding-left: 0.5rem;
+}
+
+.features{
+    padding: 3.5rem;
+    background-color: hsl(179, 47%, 52%);
+    color: #ffffff;
+}
+
+.features h2{
+    font-size: 2.1rem;
+    padding: 2rem 0;
+}
+
+li{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    opacity: 0.8;
+}
+
+
+@media screen and (max-width: 600px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
